@@ -6,7 +6,6 @@ public class Bar
 {
     Vector2 position = new Vector2(100, 300);
 
-    float speed = 5;
 
     public void Update()
     {

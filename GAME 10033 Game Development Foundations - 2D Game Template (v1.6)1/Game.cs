@@ -4,14 +4,11 @@ using System.Numerics;
 namespace MohawkGame2D;
 
 
-
-
-
     public class Game
     {
         Bar bar = new Bar();
-
-        public void Setup()
+        Ball ball = new Ball();
+    public void Setup()
         {
             Window.SetSize(400, 400);
         }
@@ -22,6 +19,8 @@ namespace MohawkGame2D;
 
             bar.Update();
             bar.DrawBar();
+            ball.Update();
+            ball.DrawBall();
         }
     }
 
